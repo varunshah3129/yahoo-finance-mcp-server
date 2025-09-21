@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "yahoo-finance": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "/Users/varun.shah/yahoo-finance-mcp-server",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
+
+
+

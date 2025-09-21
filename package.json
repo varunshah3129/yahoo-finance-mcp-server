@@ -1,0 +1,26 @@
+{
+  "name": "yahoo-finance-mcp-server",
+  "version": "1.0.0",
+  "description": "Yahoo Finance MCP Server with React Client",
+  "type": "module",
+  "scripts": {
+    "start": "node mcp-http-bridge.js",
+    "dev": "node mcp-http-bridge.js",
+    "build-mcp": "cd yahoo-finance-mcp && npm run build",
+    "install-all": "npm install && cd yahoo-finance-mcp && npm install && cd ../client-app && npm install"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "mcp",
+    "yahoo-finance",
+    "financial-data",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
