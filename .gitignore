@@ -83,5 +83,15 @@ jspm_packages/
 # DynamoDB Local files
 .dynamodb/
 
+# MCP Server specific
+*.pid
+*.sock
+mcp-server.log
 
+# Temporary files
+*.tmp
+*.temp
 
+# API keys and secrets
+config/secrets.json
+secrets.json
