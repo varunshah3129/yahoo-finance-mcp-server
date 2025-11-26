@@ -88,10 +88,6 @@ Add to your `~/.cursor/mcp.json`:
 ### Standalone Usage
 The MCP server can be used independently with any MCP-compatible client.
 
-## 📝 License
-
-MIT License - see LICENSE file for details.
-
 ## 🤝 Contributing
 
 1. Fork the repository
